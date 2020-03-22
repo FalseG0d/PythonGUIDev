@@ -8,6 +8,8 @@ def call_me():
 
 def ask_question():
     #answer=messagebox.yesnocancel("Exit","Are you sure?")
+    #print(answer)
+    #returns True False None
     answer=messagebox.askquestion("Exit","Are you sure?")
     #print(answer)
     if answer=='yes':
